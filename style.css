@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400&family=Grape+Nuts&display=swap');
+
+header {
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20210310/pngtree-minimalist-office-desktop-background-map-image_581371.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-position: left bottom;
+    
+}
+
+.logo-cabecalho {
+    height: 100px;
+    width: 100px;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px;
+}
+
+.titulo-primario {
+    font-family: 'Akshar', sans-serif;
+   
+}
+
+.paragrafo-primario {
+    font-family: 'Akshar', sans-serif;
+}
+
+.botao {
+    display: inline-block;
+    background-color: #370377;
+    box-shadow: 5px 5px 5px #eee;
+    margin-right: 0;
+    border-radius: 10px;
+    transition: transform 100ms linear;
+    color: aliceblue;
+}
+
+.botao:hover {
+    border: none;
+    padding: 1opx 5px 10px 5px;
+    background-color: #15cdcb;
+    color: aliceblue;
+    background: #370377;
+    border-radius: 50px;
+    height: 50px;
+    width: 100px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow:none;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow:none;
+    transform: scale(1.08);
+}
+
+.imagem-principal-foto {
+    padding: 30px;
+    border-radius: 1000px;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Akshar', sans-serif;
+    padding: 30px;
+}
+
+.paragrafo-principal {
+   
+    
+    padding: 40px;
+   
+    
+    
+}
+
+.paragrafo-secundario {
+    text-align: center;
+    font-family: 'Akshar', sans-serif;
+
+}
+
+.conteudo-principal-secundario {
+    margin:  100px;
+    background: black;
+    color: aliceblue;
+    height: 120px;
+    width: 180vh;
+    padding: 0;
+  
+}
+nav {
+  
+    height: 90px;
+    background: var(--bd-dark);
+    padding: 0 100px;
+    position: sticky;
+    top: 0;
+       
+}
+
+nav ul {
+        
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+    
+nav ul a {
+    font-size: 24px;
+    color: var(--green);
+    text-decoration: none;
+        
+} 
+

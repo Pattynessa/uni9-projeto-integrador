@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400&family=Grape+Nuts&display=swap');
+
+.h1 {
+    font-family: 'Akshar', sans-serif;
+
+}
+
+body {
+    background-image: url(https://images.squarespace-cdn.com/content/v1/59934311ff7c50540c53f047/1529435083264-CXPQVLNFFL7YEABBZLJ9/background.png?format=2500w);
+    height: 80vh;
+    background-size: cover;
+    background-position: left bottom;
+    text-align: center;
+    color: black;
+    font-size: 25px;
+}

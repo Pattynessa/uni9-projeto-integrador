@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400&family=Grape+Nuts&display=swap');
+
+.container-3d{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    z-index: 1;
+    background: black;
+    color: aliceblue;
+    padding: 0 100px;
+}
+
+.container-3d .card {
+    position: relative;
+    width: 280px;
+    height: 300px;
+    margin: 30px;
+    box-shadow:20px 20px 50px rgb(0, 0, 0, 0.5);
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    background-image: url(https://www.supercamera.com.br/y/722/ceu-noite.jpg);
+
+}
+
+.container-3d .card .content {
+    padding: 20px;
+    text-align: center;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.container-3d .card:hover .content {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.titulo-principal{
+    text-align: center;
+    font-family: 'Akshar', sans-serif;
+    padding: 48px;
+}
+ 
+.conteudo {
+    background: black;
+
+
+}
+.conteudo-principal {
+    
+    height: 50vh;
+    background-size: cover;
+    background-position: left bottom;
+    color: aliceblue;
+    padding: 40px;
+    font-size: 20px;
+
+}
+
+.titulo-principal-sencundario {
+    align-items: center;
+}
+
+.lista-principal{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+  
+}
+
+.conteudo-secundario {
+    height: 50vh;
+    background-size: cover;
+    background-position: left bottom;
+    color: aliceblue;
+    padding: 40px;
+    font-size: 20px;
+
+
+}
+
+.botao {
+    display: inline-block;
+    background-color: #370377;
+    box-shadow: 5px 5px 5px #eee;
+    margin-right: 0;
+    border-radius: 10px;
+    transition: transform 100ms linear;
+    color: aliceblue;
+    text-align: center;
+    height: 50px;
+    width: 100px;
+}
+
+.botao:hover {
+    border: none;
+    padding: 1opx 5px 10px 5px;
+    background-color: #15cdcb;
+    color: aliceblue;
+    background: #370377;
+    border-radius: 50px;
+    height: 60px;
+    width: 120px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow:none;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow:none;
+    transform: scale(1.08);
+    
+}
+
+.fim-primario {
+    text-align: center;
+}
+
+.conteudo-terceiro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #161623;
+
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    z-index: 1;
+    color: aliceblue;
+
+}
+
+.container .card-2{
+    position: relative;
+    width: 280px;
+    height: 400px;
+    margin: 30px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0.5);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid;
+}
