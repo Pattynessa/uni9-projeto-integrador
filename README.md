@@ -5,6 +5,10 @@ Este repoditorio tem a finalidade de compatilhamento de codigo de um projeto que
 
 Basicamente um site de uma empresa corporativa onde mostra seu portifolio e conta um pouco sobre sua tragetoria 
 
+na tela de login do site:
+User: admin
+pass: admin
+
 # Autores
 Richard Santos
 Kauan Dias
